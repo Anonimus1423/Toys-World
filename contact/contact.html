@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=d6ac2e6d-46cd-4ca1-a272-97547bde6481&lang=en_US" type="text/javascript"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="../index.html" class="a1">
+                <h1>
+                    Toy`s World
+                </h1>
+            </a>
+            <a href="" class="a2">
+                Contacts
+            </a>
+        </header>
+        <div class="child">
+            <h3>
+                Contacts
+            </h3>
+            <div class="top">
+                <div class="flex">
+                <div class="left">
+                    <div class="fl_top">
+                        <p>
+                            <i class="fa fa-phone icn"></i>
+                            <span>
+                                Frist phone: +374 (85) 50-55-58
+                            </span>
+                        </p>
+                        <p>
+                            <i class="fa fa-phone icn"></i>
+                            <span>
+                                Second phone: +374 (85) 50-55-58
+                            </span>
+                        </p>
+                    </div>
+                    <div class="fl_bottom">
+                        <p>
+                            <i class="fa fa-envelope icn icn1"></i>
+                            <span>
+                                Email: vaghinak_papoyan@mail.ru
+                            </span>
+                        </p>
+                        <p>
+                            <i class="fa fa-map-marker icn icn2"></i>
+                            <span>
+                                Address: 4455 Landing Lange, APT 4
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right_img"></div>
+                </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="karta" id="map" style="width: 100%; height: 400px;"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            Copyright ©2023 Your Name
+        </p>
+    </footer>
+    <script type="text/javascript">
+        ymaps.ready(function() {
+            var myMap = new ymaps.Map("map", {
+                center: [55.7558, 37.6176], // Moscow coordinates
+                zoom: 10
+            });
+        });
+    </script>
+</body>
+</html>

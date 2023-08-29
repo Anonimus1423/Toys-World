@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 28px;
+    background-color: rgb(71, 96, 179);
+    border-radius: 12px;
+    padding: 15px 40px;
+    background-color: rgb(71, 96, 179);
+    border-radius: 12px;
+    box-shadow: 1px -1px 43px -16px rgba(67,105,201,1);
+    -webkit-box-shadow: 1px -1px 43px -16px rgba(67,105,201,1);
+    -moz-box-shadow: 1px -1px 43px -16px rgba(67,105,201,1);
+    margin: 0 auto 60px;
+}
+.span2
+{
+    font-family: 'MontserratARM',Arial,sans-serif;
+}
+.rig_bottom{
+    display: flex;
+    align-items: center;
+}
+a.a2
+{
+    font-size: 18px !important;
+}
+h1
+{
+    font-family: 'Permanent Marker', cursive  !important;
+    font-size: 28px !important;
+}
+.header a{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0 40px;
+    height: 80vh;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.top_left p span{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    letter-spacing: 1px;
+}
+.top_left p{
+    display: flex;
+    flex-direction: column;
+}
+.h3{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.span2{
+    margin-top: 8px;
+    font-size: 18px;
+}
+.right{
+    width: 100%;
+}
+.left_img{
+    background: url('./img/sunka.webp');
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+.top_right{
+    display: flex;
+    align-items: center;
+}
+.top_right button{
+    font-size: 16px;
+    padding: 12px 60px;
+    background-color: #7188D4FF;
+    border: none;
+    border-radius: 8px;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+.top_right button:hover{
+    background-color: rgb(96, 123, 213);
+    cursor: pointer;
+}
+.icn1{
+    margin-right: 10px;
+}
+.border{
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+}
+.child{
+    padding: 40px 50px 40px 60px;
+}
+.child p{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+}
+.child p span{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-right: 6px;
+}
+@media screen and (max-width: 1020px){
+    .container{
+        width: 600px;
+        flex-direction: column;
+    }
+    .header{
+        width: 320px;
+    }
+    .header h1{
+        font-size: 20px !important;
+        letter-spacing: 0 !important;
+    }
+    .bottom2 p{
+        font-size: 12px !important;
+    }
+    .top2{
+        padding: 12px 0 !important;
+    }
+    .coment1{
+        padding: 16px 26px !important;
+    }
+    .top2 h4{
+        font-size: 16px !important;
+    }
+    .left_img{
+        margin: 0 auto;
+        width: 300px;
+        height: 400px;
+        background-size: cover;
+        background-position: 0% 40%;
+    }
+    .top_right button{
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+    .span1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .span2{
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    .top{
+        padding: 30px 0 16px;
+    }
+    .header{
+        padding: 8px 20px;
+    }
+    .header h1{
+        font-family: 'MontserratARM',Arial,sans-serif;
+        font-size: 26px;
+        color: white;
+    }
+    .header a{
+        font-size: 16px;
+        font-family: 'MontserratARM',Arial,sans-serif;
+        letter-spacing: 1px;
+        transition: 0.4s;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container{
+        width: 300px;
+    }
+    .top2 h4{
+        font-size: 14px !important;
+    }
+    .icn4 i{
+        font-size: 16px !important;
+    }
+    .child{
+        margin-bottom: 0;
+    }
+    .coment1{
+        width: 350px;
+        padding: 10px 16px !important;
+    }
+    .bottom2 p{
+        font-size: 10px !important;
+    }
+    .left_img{
+        margin: 0 auto;
+        width: 150px;
+        height: 220px;
+        background-size: cover;
+        background-position: 0% 40%;
+    }
+    .top_right button{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+}
+@media screen and (max-width: 520px){
+    .left_img{
+        width: 120px;
+        height: 190px;
+    }
+    .container{
+        width: 400px;
+    }
+    .rig_bottom{
+        gap: 18px;
+    }
+    .header{
+        width: 250px;
+    }
+    .header h1{
+    
+        font-size: 22px;
+
+    }
+    .header a{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    margin-top: 60px;
+    background-color: #F2F2F2FF;
+    padding: 22px 32px;
+}
+.coment1{
+    padding: 18px 36px;
+    background-color: #F2F2F2FF;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    transition: 0.4s;
+}
+.coment1:hover{
+    border: 2px solid rgb(55, 57, 203);
+    background-color: rgba(92, 94, 208, 0.199);
+    transform: scale(1.02);
+}
+.coment{
+    padding: 40px 0;
+    display: grid;
+    gap: 30px;
+    padding: 40px 0 120px 0;
+}
+.top2{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+.top2 h4{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.icn4 i{
+    font-size: 24px;
+    padding: 0 2px;
+    color: rgb(55, 57, 203);
+}
+.icn4 i:hover{
+    cursor: pointer;
+}
+.bottom2{
+    margin-top: 8px;
+}
+.bottom2 p{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+}
+@media screen and (max-width: 420px){
+    .coment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .coment1{
+        width: 300px;
+    }
+    .header h1{
+        font-size: 18px !important;
+        letter-spacing: 0 !important;
+    }
+    header a{
+        font-size: 14px !important;
+    }
+}

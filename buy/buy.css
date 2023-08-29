@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    pointer-events: none;
+    position: fixed;
+    opacity: 0;
+    transition: 0.3s;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform:translate(-50%, -50%)  scale(0.7);
+    max-width: 464px;
+    width: 100%;
+    min-height: 260px;
+    background-color: rgb(190, 201, 238);
+    border-radius: 16px;
+    z-index: 1;
+    padding: 12px 22px 32px 22px;
+}
+.buy.active
+{
+    transform:translate(-50%, -50%)  scale(1);
+    pointer-events: auto;
+    opacity: 1;
+}
+.buy_top{
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    margin-top: 10px;
+}
+.p1 p{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.d1{
+    margin-top: 18px;
+}
+.pp1{
+    margin-bottom: 25px;
+}
+.pp1:last-child{
+    margin-bottom: 0px;
+}
+.pp2{
+    margin-top: 15px;
+}
+.pp3{
+    margin-top: 15px;
+}
+.gic1{
+    cursor: pointer;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+.gic1:hover{
+    transform: scale(1.1);
+}
+.buy_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy_bottom span{
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.buy_bottom button{
+    transition: 0.3s;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-size: 16px;
+    padding: 6px 12px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #4760B3FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.buy_bottom button:hover
+{
+    transform: scale(1.1);
+}

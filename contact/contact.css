@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    height: 91vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 28px;
+    background-color: rgb(71, 96, 179);
+    border-radius: 12px;
+    width: 90%;
+    padding: 15px 40px;
+    background-color: rgb(71, 96, 179);
+    border-radius: 12px;
+    box-shadow: 1px -1px 43px -16px rgba(67,105,201,1);
+    -webkit-box-shadow: 1px -1px 43px -16px rgba(67,105,201,1);
+    -moz-box-shadow: 1px -1px 43px -16px rgba(67,105,201,1);
+}
+
+h1
+{
+    font-family: 'Permanent Marker', cursive  !important;
+    font-size: 28px !important;
+}
+.a1{
+    color: white;
+    text-decoration: none;
+}
+.a2{
+    height: 22px;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    transform: scale(1.02);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.child{
+    padding: 80px 0 0 0;
+}
+.icn{
+    font-size: 28px;
+    width: 26px;
+}
+.icn1{
+    font-size: 22px;
+}
+.icn2{
+    font-size: 32px;
+}
+.left p span{
+    margin-left: 8px;
+    font-family: 'MontserratARM',Arial,sans-serif;
+}
+.child h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'MontserratARM',Arial,sans-serif;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+
+}
+.left p{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.right_img{
+    width: 380px;
+    height: 250px;
+    background: url('./img/shenq.jpg');
+    background-size: cover;
+}
+.bottom{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    background-color: aqua;
+}
+.a1 h1{
+    font-family: 'MontserratARM',Arial,sans-serif;
+}
+@media screen and (max-width: 1240px){
+    .container{
+        width: 800px;
+    }
+    .right_img{
+        width: 500px;
+        height: 250px;
+        background-size: cover;
+    }
+    .bottom{
+        height: 280px;
+    }
+    .left p span{
+        margin-left: 4px;
+        font-size: 14px;
+    }
+    .icn{
+        font-size: 24px;
+        width: 22px;
+    }
+    .icn1{
+        font-size: 18px;
+    }
+    .icn2{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 840px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .top{
+        width: 500px;
+
+
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .bottom{
+        display: none;
+    }
+    .right{
+        justify-content: center;
+    }
+    .right_img{
+        margin-top: 30px;
+        width: 300px;
+        height: 200px;
+        background-size: cover;
+
+    }
+    .container{
+        width: 500px;
+    }
+    header{
+        width: 250px !important;
+        margin: 0 auto;
+    }
+    .a1{
+        font-size: 12px;
+    }
+    .a2{
+        font-size: 18px;
+    }
+    .container{
+        width: 400px;
+    }
+    footer{
+        padding: 22px 0;
+    }
+    footer p{
+        margin-left: 5;
+    }
+}
+@media screen and (max-width: 840px){
+    .container{
+        width: 350px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+    .flex{
+        width: 300px;
+    }
+    .right_img{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 380px){
+    footer p{
+        font-size: 8px !important;
+        width: 100% !important;
+    }
+    .container{
+        width: 90%;
+    }
+    footer{
+        width: 100% !important;
+    }
+    .right_img{
+        width: 250px;
+        height: 150px;
+    }
+    header{
+        justify-content: space-evenly;
+        padding: 6px 4px;
+        width: 220px;
+        margin: 0 auto;
+    }
+    .a1{
+        font-size: 6px;
+    }
+    .a2{
+        font-size: 8px;
+    }
+    .right_img{
+        margin: 0 auto !important;
+    }
+    .right{
+        width: 250px;
+    }
+}
+
+footer{
+    background-color: #F2F2F2FF;
+    padding: 22px 0;
+    margin-top: 80px;
+    overflow: hidden !important;
+
+}
+footer p{
+    font-size: 14px;
+    font-family: 'MontserratARM',Arial,sans-serif;
+    font-weight: 500;
+}
